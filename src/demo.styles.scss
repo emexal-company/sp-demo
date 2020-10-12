@@ -1,0 +1,26 @@
+@import "prismjs/themes/prism",
+"prismjs/plugins/toolbar/prism-toolbar";
+
+:host {    
+    display: block;
+}
+
+td {
+    position: relative;
+}
+
+td:first-child > * {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;    
+    white-space: normal;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 9px 0px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
